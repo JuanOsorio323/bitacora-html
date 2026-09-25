@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bitácora - Vista 2: Reglas</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bitácora de Seguimiento y Control</h1>
+        <nav aria-label="Navegación entre vistas">
+            <ul>
+                <li><a href="index.html">Vista 1: Información General</a></li>
+                <li><a href="libro2.html" aria-current="page">Vista 2: Reglas</a></li>
+                <li><a href="libro3.html">Vista 3: Actividades</a></li>
+            </ul>
+        </nav>
+        <nav aria-label="Navegación general">
+            <a href="../../../../index.html">← Volver al Menú Principal</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Reglas de Control de Trabajo Diario</h2>
+            <p>Lineamientos obligatorios para el diligenciamiento técnico de la bitácora.</p>
+            <ol>
+                <li><strong>Responsabilidad Única (SRP):</strong> Cada fila documenta un solo evento, tarea o impedimento indivisible. Si realizó tres actividades en el día, registre tres filas independientes.</li>
+                <li><strong>Cero Adjetivos Subjetivos:</strong> Prohibido escribir "estuvo chévere", "fue difícil", "avanzamos bien". Redacte únicamente los hechos técnicos verificables.</li>
+                <li><strong>Inmutabilidad:</strong> Si un registro histórico contiene un error o cambio, no lo borre ni sobrescriba. Cree un nuevo registro con fecha actual indicando: "Corrección/Ajuste al registro ID [X]".</li>
+                <li><strong>Impedimentos:</strong> Si no presentó dificultades, escriba expresamente: "Sin impedimentos operativos".</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Guía de Llenado por Columna</h2>
+            <p>Descripción técnica del formato esperado para cada campo de la bitácora.</p>
+
+            <table>
+                <caption>Especificaciones y formato por columna</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Columna</th>
+                        <th scope="col">Descripción y Formato Esperado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>ID</strong></td>
+                        <td>Número consecutivo único para cada actividad o fila (ej. 001, 002).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Timestamp (YYYY-MM-DD HH:MM)</strong></td>
+                        <td>Fecha y hora exacta en la que se registra o ejecuta la actividad (formato AAAA-MM-DD HH:MM).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Autoría (Responsable)</strong></td>
+                        <td>Nombre o iniciales del aprendiz responsable de ejecutar la actividad.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Objeto Técnico (Actividad y Alcance)</strong></td>
+                        <td>Descripción técnica objetiva verificable y concreta de lo ejecutado y su alcance real.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Evidencia de Ejecución (Entregable / Enlace)</strong></td>
+                        <td>URL del commit, enlace al Pull Request, captura de pantalla o documento entregable.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Impedimentos / Blockers</strong></td>
+                        <td>Descripción técnica del error o impedimento. Si no hubo problemas escribir: 'Sin impedimentos operativos'.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Plan de Acción (Mitigación / Próxima Tarea)</strong></td>
+                        <td>Acción correctiva tomada, próxima tarea programada o paso para desbloquear la actividad.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Juan Esteban Osorio Arévalo - SENA ADSO</p>
+    </footer>
+
+</body>
+</html>
