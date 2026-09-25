@@ -5,7 +5,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 1. Miembros del Equipo y Roles
 Nombre	Rol	Usuario de GitHub
 []	Líder (Arquitecto)	@
-[Juan Esteban Osorio Arevalo]	Desarrollador	@
+[Juan Esteban Osorio Arevalo]	Desarrollador	@JuanOsorio323
 []	Desarrollador	@
 
 2. Canales de Comunicación
