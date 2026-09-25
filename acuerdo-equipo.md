@@ -6,7 +6,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 Nombre	Rol	Usuario de GitHub
 []	Líder (Arquitecto)	@
 []	Desarrollador	@
-[]	Desarrollador	@
+[Johan Gomez]	Desarrollador	@JohanGomez-8bits
 
 2. Canales de Comunicación
 Para mantener el orden y separar lo profesional de lo personal, usaremos los siguientes canales:
@@ -30,3 +30,4 @@ Incumplimiento: Si un miembro del equipo no entrega sus tareas en la fecha del M
 Decisiones Técnicas: En caso de desacuerdo sobre cómo programar algo, se debatirá con argumentos técnicos y la decisión final será tomada por el Líder (Arquitecto) .
 
 Firma Digital: 
+Johan Gomez
