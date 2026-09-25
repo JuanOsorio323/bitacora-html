@@ -6,7 +6,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 Nombre	Rol	Usuario de GitHub
 [fabio contreras]	Líder (Arquitecto)	@fabio-contreras
 [Juan Esteban Osorio Arevalo]	Desarrollador	@JuanOsorio323
-
+[Johan Gomez]	Desarrollador	@JohanGomez-8bits
 
 2. Canales de Comunicación
 Para mantener el orden y separar lo profesional de lo personal, usaremos los siguientes canales:
@@ -32,3 +32,4 @@ Decisiones Técnicas: En caso de desacuerdo sobre cómo programar algo, se debat
 Firma Digital: 
  fabio contreras
 Juan Osorio
+Johan Gomez
