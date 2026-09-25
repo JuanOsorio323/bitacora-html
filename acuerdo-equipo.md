@@ -4,7 +4,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 
 1. Miembros del Equipo y Roles
 Nombre	Rol	Usuario de GitHub
-[]	Líder (Arquitecto)	@
+[fabio contreras]	Líder (Arquitecto)	@fabio-contreras
 []	Desarrollador	@
 []	Desarrollador	@
 
@@ -30,3 +30,4 @@ Incumplimiento: Si un miembro del equipo no entrega sus tareas en la fecha del M
 Decisiones Técnicas: En caso de desacuerdo sobre cómo programar algo, se debatirá con argumentos técnicos y la decisión final será tomada por el Líder (Arquitecto) .
 
 Firma Digital: 
+ fabio contreras
