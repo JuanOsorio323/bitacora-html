@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bitácora - Vista 3: Actividades</title>
+</head>
+<body>
+    <header>
+        <h1>Bitácora de Seguimiento y Control</h1>
+        <nav aria-label="Navegación entre vistas">
+            <ul>
+                <li><a href="index.html">Vista 1: Información General</a></li>
+                <li><a href="libro2.html">Vista 2: Reglas</a></li>
+                <li><a href="libro3.html" aria-current="page">Vista 3: Actividades</a></li>
+            </ul>
+        </nav>
+        <nav aria-label="Navegación general">
+            <a href="../../../../index.html">Volver al Menú Principal</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Tabla de Trazabilidad de Actividades - Semana 3 Día 2</h2>
+            <p>Registro de actividades técnicas ejecutadas durante el 28 de agosto de 2026.</p>
+
+            <table>
+                <caption>Registro de actividades del Día 2 (Semana 3)</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Timestamp (YYYY-MM-DD HH:MM)</th>
+                        <th scope="col">Autoría (Responsable)</th>
+                        <th scope="col">Objeto Técnico (Actividad y Alcance)</th>
+                        <th scope="col">Evidencia de Ejecución (Entregable / Enlace)</th>
+                        <th scope="col">Impedimentos / Blockers</th>
+                        <th scope="col">Plan de Acción (Mitigación / Próxima Tarea)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2026-08-28 13:10</td>
+                        <td>Juan Esteban Osorio Arévalo</td>
+                        <td>Comprender y aplicar el flujo de trabajo con ramas (branching y merging) en Git, aprendiendo a aislar el desarrollo de nuevas funciones en dimensiones paralelas, simular y resolver un conflicto de fusión manual (merge conflict) en el área de trabajo</td>
+                        <td>actividad de apropiacion juan osorio.docx</td>
+                        <td>Los principales impedimentos fueron cometidos por errores de sintaxis (cd.. y --graph-oneline), omitir comillas en textos con espacios, confundir los nombres de archivo y de rama, saltarme el git add antes de hacer commit, y el bloqueo del merge por editar la misma línea en ambas ramas, obligándome a resolver el conflicto a mano.</td>
+                        <td>El plan de acción consistió en leer los errores de la terminal, corregir la sintaxis con espacios y comillas, validar los nombres correctos de archivos y ramas, asegurar el paso previo por git add, editar el archivo manualmente para limpiar las marcas de conflicto y verificar el historial antes de borrar la rama secundaria.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2026-08-28 16:30</td>
+                        <td>Juan Esteban Osorio Arévalo</td>
+                        <td>Demostrar la apropiación de conceptos sobre gestión de ramas, resolución de conflictos de fusión y comandos en Git, mediante la participación activa y el desempeño práctico en 3 actividades evaluativas de Kahoot (pelea de banderas en equipo, pirámide por grupos y prueba individual de velocidad)</td>
+                        <td>evidencia kahoot.docx</td>
+                        <td>Complicaciones en la construcción de estructura que eran ciertas preguntas en todos 3 kahoot, confundiendo funciones básicas</td>
+                        <td>Repasaré la sintaxis de los comandos para corregir las dudas de los Kahoots, crearé el repositorio multiverso-git, forzaré un conflicto en historia.txt entre main y final-alternativo, lo resolveré manualmente y limpiaré el historial eliminando la rama con git branch -d.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>2026-08-28 18:00</td>
+                        <td>Juan Esteban Osorio Arévalo</td>
+                        <td>Consolidar la estructura de ramas del repositorio mediante fusiones jerárquicas en cascada utilizando el comando git merge --no-ff, garantizando la preservación del árbol de commits, la trazabilidad de los mensajes de confirmación y la posterior eliminación segura de ramas residuales.</td>
+                        <td>actividad de transferencia_juan.osorio.docx</td>
+                        <td>Comandos fallidos: Error por caracteres invisibles al copiar texto; se solucionó escribiéndolos a mano, Git no configurado: Mensaje Committer identity unknown; se resolvió registrando el nombre y correo, Ruta errónea: Error con cd descargas; se corrigió usando cd dowloands</td>
+                        <td>Exploraré el repositorio para ubicar a Codi y la jerarquía de ramas, configuraré mi identidad en Git (user.name y user.email), ejecutaré las tres fusiones en cascada usando git merge --no-ff -m para formar la frase secreta, eliminaré las ramas secundarias con git branch -d y registraré la captura del historial final en la bitácora.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Juan Esteban Osorio Arévalo - SENA ADSO</p>
+    </footer>
+</body>
+</html>
